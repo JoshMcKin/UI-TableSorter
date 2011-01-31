@@ -1,9 +1,18 @@
 body {font-size:9pt;}
 
 table.tablesorter{width:auto}
-table.tablesorter thead th,table.tablesorter thead td{text-align:center;padding:5px;font-weight: bold;vertical-align: middle}
+table.tablesorter thead th,table.tablesorter thead td{text-align:center;padding:5px;font-weight: bold;vertical-align: middle;color:inherit}
 table.tablesorter th {cursor: pointer;}
-table.tablesorter tbody tr td{padding: 5px}
+table.tablesorter tbody tr td{padding: 5px;}
 table.tablesorter tbody tr td span{vertical-align: middle;}
+table.tablesorter tbody tr td.ui-widget-content{background:none;color:inherit}
+
+
+table.tablesorter tbody tr.even{
+    color:lightblue
+}
+table.tablesorter tbody tr.odd{
+
+}
 
 span.sorter-header-text{padding: 0 1em;}
