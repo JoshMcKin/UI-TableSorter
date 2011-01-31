@@ -590,7 +590,9 @@
             function setBodyStyle(table){
                 $("td", table).addClass('ui-widget-content')
             }
-
+            function setTableStyle(table){
+                $(table).addClass('ui-widget ui-corner-all ui-widget-content')
+            }
 
             function fixColumnWidth(table, $headers) {
                 var c = table.config;
@@ -757,7 +759,7 @@
 
 
 
-
+                    setTableStyle($this[0])
                     setBodyStyle($this[0]);
                     // Round header corners
                     setHeaderCorners($this[0]);
